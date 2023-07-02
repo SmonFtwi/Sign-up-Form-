@@ -1,0 +1,135 @@
+body{
+   margin: 0; 
+   padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.main .logo{
+    flex: 2;
+    background-image: url(images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.logo img{
+   width: 20vh;
+   height: 10vh;
+   margin-top: 30%;
+   
+  
+}
+
+.main .form{
+    flex: 3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 53, 94);
+    
+    
+}
+
+
+.form form{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding:0 10vh;
+}
+input{
+    background-color: transparent;
+    border: black solid 1px;
+    padding: 1vh;
+    border-radius: 5px;
+    color:white
+}
+
+input :valid{
+    border: green 1px solid;
+}
+input :invalid{
+    border: red 1px solid;
+}
+.form .description{
+    margin: 5vh 10vh;
+}
+
+form .name{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.name .firstName {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+    
+}
+.name .lastName {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form .email{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.email .emailLabel {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+    
+}
+.email .phone {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form .password{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.password .pass {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vh;
+    
+}
+.password .cpass {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.submitBtn{
+    padding:5vh 10vh;
+}
+
+.submitBtn button{
+    padding: 1vh 3vh;
+    border-radius: 5px;
+    background-color:#596D48;
+    border: 1px black solid;
+}
+ 
+.submitBtn button:hover{
+    border: 1px white solid;
+    padding: 1vh 3vh;
+    border-radius: 5px;
+    background-color: #596D48;
+}
+
