@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  
     
 }
 
@@ -16,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     color: white;
+
     
 }
 
@@ -131,5 +133,24 @@ form .password{
     padding: 1vh 3vh;
     border-radius: 5px;
     background-color: #596D48;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(36, 41, 57);
+    padding:1vh 0;
+    
+}
+footer p{
+    font-size: 3vh;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+p img{
+    width:3vh;
+    height: 3vh;
 }
 
